@@ -1,13 +1,16 @@
+/* All elements should have widths and heights of a border-box, a padding size of 0, and a margin size of 0 */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*Webpage under the header tag should display the following background color*/
 main {
     background-color: #d9dcd6;
 }
 
+/* The header tag should display the following background color, text color, font family and padding area */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ main {
     color: #ffffff;
 }
 
+/* The h1 tag must be at a font size of 48px and should display as an inline-block  */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* The phrase seo within the h1 tag should have the following text color  */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* The navigation tab within the header should have the following padding top, margin-right, float direction, font-family and font size */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,6 +38,7 @@ main {
     font-size: 20px;
 }
 
+/* The unordered list within the header should not contain any bullet points, display the following text color and have a left margin of the following value */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -45,11 +52,12 @@ a {
     text-decoration: none;
 }
 
-
+/* Paragraphs should have a font size of 16px */
 p {
     font-size: 16px;
 }
 
+/* Section should have a content height of 800px, content width of 100%, margin thickness at the bottom of 25px, a background image where the size covers and is positioned at the center */
 .section {
     height: 800px;
     width: 100%;
@@ -59,6 +67,7 @@ p {
     background-position: center;
 }
 
+/* This box should be floated in the left direction, should have a right margin thickness of 25px */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -96,6 +105,7 @@ p {
     text-align: center;
 }
 
+/* The following image should display as a block, have a margin of 10px on all sides, and a maximum content width of 150px */
 .aside-1 img {
     display: block;
     margin: 10px auto;
@@ -111,15 +121,18 @@ p {
     color: #ffffff;
 }
 
+/* Maximum height of this image should be 200px */
 .article-1 img {
     max-height: 200px;
 }
 
+/* h2 tag within article should have a font size of 36px and a margin thickness of 20px*/
 .article-1 h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Footer should have the following padding value, the following font family, be center aligned, have the following font size, both sides of the footer should not be adjacent to an earlier box */
 .footer {
     padding: 30px;
     clear: both;
