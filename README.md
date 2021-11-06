@@ -22,7 +22,7 @@ it took me a while to condense some CSS elements into smaller ones because they 
 
 Website Mock-Up
 
-![Screenshot] (Screenshot.PNG)
+![Screenshot](https://user-images.githubusercontent.com/91860335/139477855-7f5f7334-c57b-4ec6-9940-462386be6d16.PNG)
 
 Website Link
 
